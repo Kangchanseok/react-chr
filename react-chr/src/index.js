@@ -9,7 +9,6 @@ import Chr2 from './Chr2';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Chr1 />
     <Chr2 />
   </React.StrictMode>
 );

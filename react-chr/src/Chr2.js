@@ -3,8 +3,11 @@
 function Chr2() {
     function test2(){
         let arr = []
-        for (let i = 1; i < 11; i++){
-            arr.push(<img src={'chr2/2-' + i + '.png'}></img>)
+        for (let i = 1; i < 25; i++){
+          for (let j = 1; j < 11; j++) {
+            arr.push(<img src={'chr' + i + '/' + i + '-' + j + '.png'}></img>)
+          }
+            
         }
         return arr
     }

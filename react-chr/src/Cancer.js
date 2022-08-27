@@ -1,3 +1,5 @@
+import React from 'react'
+
 function Cancer() {
     function test3(){
         let arr = []

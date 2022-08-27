@@ -1,4 +1,4 @@
-
+import React from 'react'
 
 function Chr2() {
     function test2(){

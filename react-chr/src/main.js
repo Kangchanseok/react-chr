@@ -1,21 +1,18 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-
-function main() {
-    function test(){
-        let arr = []
-        for (let i = 1; i < 11; i++){
-            arr.push(<img src={'chr1/1-' + i + '.png'}></img>)
-        }
-        return arr
-    }
+function Main() {
     return (
-      <div className="main">
-          <p>
-            {test()}
-            </p>
+      <div className="Main">
+        <h1>메인 페이지 입니다.</h1>
+        <ul>
+            <Link to = '/chr2'><button style={{color:'white', background:'black', cursor:'pointer', fontSize:'20px',borderRadius:'5px', padding:'10px 60px', margin:'10px 0px'}}>chr</button></Link>
+            <br/>
+            <Link to = '/cancer'><button style={{color:'white', background:'black', cursor:'pointer', fontSize:'20px',borderRadius:'5px', padding:'10px 60px', margin:'10px 0px'}}>cancer</button></Link>
+        </ul>
           
       </div>
     );
   }
   
-  export default main;
+  export default Main;
